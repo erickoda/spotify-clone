@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+/*Utility Classes*/
+.btn-primary {
+    background-color: #1ED760;
+    padding: 16px 31px;
+    border-radius: 30px;
+    border: 0px;
+    font-weight: bolder;
+    color: #2941AB;
+    margin-top: 30px;
+}
+
+.btn-primary:hover{
+    font-size: 14px;
+    background-color: #28e76b;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+/* Navbar*/
+#navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    letter-spacing: 1px;
+}
+
+#navbar .navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding: 15px 0;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+#navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#navbar .navbar-container ul li{
+    padding: 0 20px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+#navbar .navbar-container ul li:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+
+#navbar .navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+
+/*Showcase*/
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1ED760;
+    background: url("./img/spotifyBG.png") center center/cover;
+    /*background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;*/
+
+}
+
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#showcase .showcase-container h2{
+    display: flex;
+    justify-content: center;
+    font-size: 9rem;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+#showcase .showcase-container p{
+    font-size: 18px;
+}
+
+
+/*footer*/
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+}
+
+#footer .footer-container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+#footer .footer-container .footer-lists{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .footer-container .footer-lists ul li{
+    list-style: none;
+    padding-right: 40px;
+    margin-bottom: 20px;
+} 
+
+#footer .footer-container .footer-lists .footer-title{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+#footer .footer-container .footer-lists .footer-items:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+
+#footer .footer-container .footer-lists img{
+    padding-right: 30px;
+}
+
+
+/*Footer redes sociais */
+.redes-sociais {
+    display: flex;
+}
+
+.redes-sociais i {
+    margin: 0 20px;
+    font-size: 1.6rem;
+}
+.redes-sociais i:hover {
+    color: #1ED760;
+    cursor: pointer;
+}
+
+
+/*Footer Info*/
+#footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    letter-spacing: 1px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#footer-info ul li:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+#footer-info p:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+
+#footer-info .footer-info-item{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+    
+}
+
+#footer-info .rights p{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*Responsividade*/
+@media screen and (max-width: 1120px){
+    #footer .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (max-width: 850px){
+        #footer .footer-container .footer-lists{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        #footer .footer-container .footer-lists img{
+            padding-right: 40px;
+            margin-bottom: 20px;
+        }        
+    }
+
+}
