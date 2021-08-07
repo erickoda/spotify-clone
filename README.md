@@ -7,7 +7,7 @@ Clone Spotify
 
 ## Objetivo ✔
 
-Este projeto tem como objetivo ser um treinamente de **HTML** e **CSS**. Deste modo, o projeto não possui botões clicáveis que saim desta página.
+Este projeto tem como objetivo ser um treinamente de **HTML** e **CSS**. Deste modo, o projeto não possui botões clicáveis que saem desta página.
 
 ---
 </br>
