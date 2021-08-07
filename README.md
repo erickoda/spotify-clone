@@ -34,7 +34,7 @@ Este projeto tem como objetivo ser um treinamente de **HTML** e **CSS**. Deste m
 
 ## Notas 📃
 
-O projeto foi baseado no site na data de 06/08/2021. Além disso, foi baseado em um vídeo do [YouTube](https://www.youtube.com/watch?v=qjsRinLKiLc)
+O projeto foi baseado no site na data de 06/08/2021 e em um vídeo do [YouTube](https://www.youtube.com/watch?v=qjsRinLKiLc)
 
 ---
 
